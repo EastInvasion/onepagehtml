@@ -8,6 +8,7 @@ header{
 	height: 75vh;
 	background-color: #333;
 	margin-bottom: 1000px;
+	overflow: hidden;
 }
 
 .header-bg{
