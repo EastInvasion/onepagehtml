@@ -1,5 +1,36 @@
 body{
 	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav
+{
+    width: 100%
+    background: #202c45;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+nav h1 a
+{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: .5s;
+}
+nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
 }
 
 header{
