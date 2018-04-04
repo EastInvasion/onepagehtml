@@ -67,6 +67,23 @@ nav ul li a {
       text-decoration: none;
       color: #fff;
       font-size: 16px;
+      position: relative;
+}
+
+nav ul li a:before {
+content: '';
+width: 0px;
+height: 5px;
+background: #ff3a1c; /* WARNA BAGIAN BAWAH HOVERNYA*/
+position: absolute;
+top: 100%;
+left: 0;
+transition: .5s;
+}
+
+nav ul li:hover a:before {
+width: 50%;
+transform: translateX(100%);
 }
  
 .menu-icon {
