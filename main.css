@@ -90,3 +90,33 @@ section.sec1{
     font-size: 20px;
     line-height: 30px;
 }
+
+
+@media only screen and (max-width: 699px) {
+    /* Tambahkan CSS untuk ukuran layar maksimal 699px (dari 0px - 699px) */
+}
+
+@media only screen and (min-width: 1000px) {
+    /* Tambahkan CSS untuk ukuran layar minimal 1000px (dari 1000px - ~) */
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    /* Tambahkan CSS untuk ukuran layar minimal 700px dan maksimal 999px (700px - 999px) */
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /* Desktop, Tablet & Mobile. */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Desktop & Tablet */
+}
+@media only screen and (max-width: 767px) {
+    /* Tablet (Portrait) */
+}
+@media only screen and (min-wdth: 480px) and (max-width: 767px) {
+    /* Tablet (Portrait) & Mobile (Landscape) */
+}
+@media only screen and (max-width: 479px) {
+    /* Mobile */
+}
