@@ -40,7 +40,6 @@ header {
       margin-left: 40px;
 >>>>>>> d4c39be81cec723a4082734172d4dac23cee9eee
 }
-
 nav .logo img{
       height: 80px;
       transition: .5s
@@ -155,4 +154,15 @@ left: 0;
             display: block;
       }
  
+}
+.gallery{
+      margin: 10px 50px;
+}
+.gallery img{
+      width: 230px;
+      padding: 5px;
+      transition: 1s;
+}
+.gallery img:hover{
+      transform: scale(1.1);
 }
