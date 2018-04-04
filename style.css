@@ -27,14 +27,25 @@ header {
 .logo {
       line-height: 60px;
       position: fixed;
+<<<<<<< HEAD
       float: center;
       margin: 8px 40px;
       color: #fff;
       font-weight: bold;
       font-size: 20px;
       letter-spacing: 2px;
+=======
+      float: left;
+      margin-top: 10px;
+      margin-left: 40px;
+>>>>>>> d4c39be81cec723a4082734172d4dac23cee9eee
 }
- 
+
+nav .logo img{
+      height: 80px;
+      transition: .5s
+}
+
 nav {
       position: fixed;
       width: 100%;
@@ -53,6 +64,8 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
+
+nav li a:hover{color:#cc227b;}
  
 nav.black ul {
       background: #000;
