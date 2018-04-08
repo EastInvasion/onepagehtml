@@ -165,4 +165,5 @@ left: 0;
 }
 .gallery img:hover{
       transform: scale(1.1);
+       opacity: .8;
 }
