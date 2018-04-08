@@ -181,6 +181,7 @@ footer {
 
 footer nav {
 float: center;
+
 }
  
 footer nav ul {
@@ -189,9 +190,9 @@ footer nav ul {
 }
 
 footer nav ul li {
-      display: inline-block;
+      display: inline-table;
       margin-left: 100px;
-      list-style-type: none;
+      
 }
 
 footer nav ul li span {
