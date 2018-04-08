@@ -196,8 +196,16 @@ footer li{
       line-height: 1.6em;
 }
 footer li.tw{
-      padding-left: 20px;
-      /*list-style-image: url(images/twitter.png);*/
+      list-style-image: url(images/twitter.png);
+}
+footer li.fb{
+      list-style-image: url(images/facebook.png);
+}
+footer li.ig{
+      list-style-image: url(images/instagram.png);
+}
+footer li.yt{
+      list-style-image: url(images/youtube.png);
 }
 #copyright{
       clear: both;
