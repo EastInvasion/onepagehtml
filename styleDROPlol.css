@@ -197,7 +197,7 @@ footer li{
 }
 footer li.tw{
       padding-left: 20px;
-      list-style-image: url(images/twitter.png);
+      /*list-style-image: url(images/twitter.png);*/
 }
 #copyright{
       clear: both;
