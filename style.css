@@ -27,18 +27,15 @@ header {
 .logo {
       line-height: 60px;
       position: fixed;
-<<<<<<< HEAD
       float: center;
       margin: 8px 40px;
       color: #fff;
       font-weight: bold;
       font-size: 20px;
       letter-spacing: 2px;
-=======
       float: left;
       margin-top: 10px;
       margin-left: 40px;
->>>>>>> d4c39be81cec723a4082734172d4dac23cee9eee
 }
 nav .logo img{
       height: 80px;
@@ -155,39 +152,47 @@ left: 0;
       }
  
 }
+
 .gallery{
       margin: 10px 50px;
 }
+
 .gallery img{
-      width: 230px;
-      padding: 5px;
+      width: 400px;
+      padding: 10px;
       transition: 1s;
 }
+
 .gallery img:hover{
       transform: scale(1.1);
        opacity: .8;
 }
+
 footer{
       background: #000;
       padding: 30px 0;
       border-top: 10px solid #151515;
 }
+
 footer h4{
       margin: 0;
       color: #fff;
       text-transform: uppercase;
       font-size: 18px;
 }
+
 footer ul{
       float: left;
       width: 25%;
       list-style-type: none;
 }
+
 footer:after{
       content: "";
       display: block;
       clear: both;
 }
+
 footer li{
       color: #fff;
       width: 80%
@@ -195,18 +200,23 @@ footer li{
       font-size: 14px;
       line-height: 1.6em;
 }
+
 footer li.tw{
       list-style-image: url(images/twitter.png);
 }
+
 footer li.fb{
       list-style-image: url(images/facebook.png);
 }
+
 footer li.ig{
       list-style-image: url(images/instagram.png);
 }
+
 footer li.yt{
       list-style-image: url(images/youtube.png);
 }
+
 #copyright{
       clear: both;
       padding-top: 30px;
