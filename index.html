@@ -1,81 +1,214 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="jquery.min.js"></script>
-      <script type="text/javascript" src="jquery/jquery-3.3.1/slim.js"></script>
-      <script src="function.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-      <script type="text/javascript" src="jquery/lightbox-plus-jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href='am.png' />
-      <title>AUTO-MOD</title>
-  </head>
-  <body>
-    <div id="container">
-            <header>
-                  <nav>
-                        <div class="menu-icon">
-                              <i class="fa fa-bars fa-2x"></i>
-                        </div>
-                        <div class="logo" align="top">
-                              <a href="#"><img src="am1.png"></a>
-                        </div>
-                        <div class="menu">
-                              <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#gallery">Gallery</a></li>
-                                    <li><a href="#Contact">Contact</a></li>
-                              </ul>
-                        </div>
-                  </nav>
-            </header>  
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AUTO MOD</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  	<script src="js/jquery.bxslider.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+  	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+  	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+  	<script src="js/waypoints.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href='am.png' />
+</head>
+<body>
+		<header>
+		<div id="header-inner">
+			<a href="index.html" id="logo"></a>
+			<nav>
+				<a href="#" id="menu-icon"></a>
+				<ul>
+					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Content</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-            <div id="banner">
-              
-              <h2>dwad</h2>
-            </div>          
-    
-    <div id="content">
-                <p id="gallery" align="center">Gallery</p>
-                  <div class="gallery" align="center">
-                    <a href="img/900-644-rd-light.png" data-lightbox="mygallery" data-title="Ligth"><img src="img/900-644-rd-light.png" title="Ligth"></a>
-                    <a href="img/computer-guy.png" data-lightbox="mygallery" data-title="Meow"><img src="img/computer-guy.png" title="Meow"></a>
-                    <a href="img/computer-code.png" data-lightbox="mygallery" data-title="Meong"><img src="img/computer-code.png" title="Meong"></a>
-                  </div>
-            </div>
-      <footer>
-        <div id="wrap-foot">
-          <ul>
-            <li><h4>get in touch</h4></li>
-            <li>Jl. Fortessimo No.9051</li>
-            <li>Edelland, Eurodia</li>
-            <li>9051-8481-1234</li>
-          </ul>
-          <ul>
-            <li><h4>social media</h4></li>
-            <li class="tw">Auto-Mod</li>
-            <li class="fb">Auto-Mod</li>
-            <li class="ig">Auto-Mod</li>
-            <li class="yt">Auto-Mod</li>
-          </ul>
-          <ul>
-            <li><h4>popular post</h4></li>
-            <li>Jakarta Modified Car Show 2018</li>
-            <li>Modified Car Show SA</li>
-            <li>Yorkshire Modified Car Show</li>
-          </ul>
-          <ul>
-            <li><h4>about us</h4></li>
-            <li>support.auto-mod@gmail.com</li>
-          </ul>
-          <div id="copyright">&copy; 2018 16 S1-IF 05. All Rights Reservered. Themes By East Invasion</div>
-        </div>
-      </footer>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
 
-      </div>
-  </body>
+		<!--- ADD IMAGE SLIDER HERE -->
+		<div class="slide-wrap">
+		<section class="slider">
+			<ul class="slider1">
+				<li><img src="images/001.jpg"></li>
+				<li><img src="images/002.jpg"></li>
+				<li><img src="images/003.jpg"></li>
+			</ul>
+		</section>
+	</div>
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+
+<div class="clearfix"></div>
+		<div id="inner-wrapper">
+
+<!--START WAYPONTS DELAYED ANIMATION-->
+<section class="staggered-animation-container">
+
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">
+
+			<section class="one-third">
+				<div class="circle">
+				<td><i class="fa fa-users"></i></td>
+				</div>
+				<h3>Grade A Modified</h3>
+				<p>
+					It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+				</p>
+			</section>
+
+	</section> <!--END Animation-->
+
+			<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s">
+			<section class="one-third">
+				<div class="circle">
+					<td><i class="fa fa-map-marker"></i></td>
+				</div>
+				<h3>Location</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+				</p>
+	</section>
+
+	</section> <!--END Animation-->
+
+
+	<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">
+	<section class="one-third">
+		<div class="circle">
+					<td><i class="fa fa-check-square-o"></i></td>
+				</div>
+				<h3>Check Us Out</h3>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+	</section>
+
+	</section> <!--END Animation-->
+
+	<div class="clearfix"></div>
+	<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">
+		<article>
+			<img src="images/003.jpg" class="circle-image">
+		</article>
+		</section>
+
+		<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">
+		<aside>
+				<h3>Our Facility</h3>
+				<br>
+				<ul class="Gym">
+					<li><h4>Unlimited custom</h4></li>
+					<li><h4>memek &amp; voting </h4></li>
+					<li><h4>memek &amp; you'll </h4></li>
+					<li><h4>DORA ENAKKK </h4></li>
+				</ul>
+				</aside>
+				</section>
+
+				<div class="clearfix"></div>
+				<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">
+				<section class="one-third">
+					<h3>Ladies Fuck</h3>
+					<img src="images/001.jpg">
+					<p>MAIN MEMEK ENAK LOOO</p>
+				</section>
+				</section>
+
+				<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s">
+				<section class="one-third">
+					<h3>KONTOL GYM</h3>
+					<img src="images/002.jpg">
+					<p>CUKI LADIES EAK LOOO</p>
+				</section>
+				</section>
+
+				<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">
+				<section class="one-third">
+					<h3>WEIGHT GENDUT</h3>
+					<img src="images/003.jpg">
+					<p>GENDUTS KAMU</p>
+				</section>
+				</section>
+
+				<div class="clearfix"></div>
+		</div> <!-- END INNER WRAPPER-->
+
+		<div class="clearfix"></div>
+
+		<!--FOOTER-->
+		<footer>
+			<div id="footer-inner">
+				<section class="one-third" id="footer-third">
+					<h3>Contact</h3>
+					<p class="footercontact">Auto-Mod
+					<b class="phone">905184811234</b><br><br>
+					JL. Memek<br>
+					Seattle, Columbia<br></p>
+				</section>
+				<section class="one-third" id="footer-third">
+					<h3>Social</h3>
+					<br>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/Auto-mod" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/AutoMod_ID" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.twitter.com/AutoMod_ID" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCHftcjOZzKAfUQAclrOnvxg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</section>
+				<section class="one-third" id="footer-third-last">
+					<h3>Pages</h3>
+					<br>
+					<h5>
+						<a href="#">Home</a> -
+						<a href="#">Facility</a> -
+						<a href="#">Pricing</a> -
+						<a href="#">Contact</a>
+					</h5>
+				</section>
+			</div>
+		</footer>
+		<footer class="second">
+			<p>&copy; Auto-Mod, 2018.</p>
+		</footer>
+
+		<!--END WAYPONTS DELAYED ANIMATION-->
+</section>
+
+</body>
 </html>
