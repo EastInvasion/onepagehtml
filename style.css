@@ -65,7 +65,7 @@ nav {
 }
 
 #menu-icon{
-	background: url(img/icon.png) center;
+	background: url(images/icon.png) center;
 	width: 40px;
 	height: 34px;
 	display: hidden;
@@ -78,6 +78,7 @@ ul {
 nav ul li {
 	font-family: sans-serif;
 	display: inline-block;
+	color: white;
 	padding: 10px;
 	float: left;
 	font-size: 110%;
