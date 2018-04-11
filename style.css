@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
 	margin: 0;
@@ -10,11 +11,13 @@
 body {
 	background: #F0F0F0;
 	color: #555;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	line-height: 190%;
 	text-align: center;
 	text-transform: uppercase;
 }
+
+
 
 h3 {
 	font-size: 190%;
@@ -130,7 +133,7 @@ a:hover, .current {
 }
 
 p {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	text-align: justify;
 	text-transform: none;
 	font-size: 125%;
@@ -198,6 +201,16 @@ footer p {
 	min-height: 250px;
 }
 
+.footercontact {
+	font-size: 25px;
+}
+
+.footercontact a:hover{
+	text-decoration: none;
+	color: #F5F5F5;
+	font-size: 17px;
+	}
+
 footer a {
 	color: #959595;
 	text-decoration: none;
@@ -215,13 +228,17 @@ footer a {
 
 .social i:hover {
 	color: #F5F5F5;
+	font-size: 27px;
 }
 
 h5 a:hover {
 	text-decoration: none;
-	color: #405580;
+	color: #F5F5F5;
 }
 
+#footer-third-last a:hover {
+	font-size: 15px;
+}
 
 footer.second {
 	border-top: 1px solid #4D4E50;
