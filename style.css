@@ -36,7 +36,7 @@ img{
 }
 
 header{
-	background: #405580;
+	background: grey;
 	height: 86px;
 	position: fixed;
 	z-index: 1000;
@@ -84,20 +84,16 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #F0F0F0;
+	color: white;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 a:hover, .current {
 	text-decoration: underline;
 }
 
-/*.current {
-	text-decoration: underline;
-} */
 
-/*--START SLIDER---*/
 .slider {
 	margin-top: 90px;
 }
@@ -106,7 +102,7 @@ a:hover, .current {
 	display: none;
 }
 
-/* INNER WRAPPER */
+
 #inner-wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -120,15 +116,15 @@ a:hover, .current {
 
 .circle {
 	margin: 0 auto;
-	width: 150px;
-	height: 150px;
-	background: #405580;
+	width: 100px;
+	height: 100px;
+	background: red;
 	border-radius: 50%;
 }
 
 .one-third i {
 	color: #F0F0F0;
-	font-size: 555%;
+	font-size: 350%;
 	padding: 20%;
 }
 
@@ -152,7 +148,7 @@ article {
 }
 
 .circle-image {
-	border-radius: 70%;
+	border-radius: 0%;
 }
 
 aside {
@@ -248,7 +244,7 @@ footer.second {
 		display: none;
 		z-index: 1000;
 		position: absolute;
-		background: #405580;
+		background: grey;
 		width: 50%;
 		padding: 20px;
 		right: 20px;
