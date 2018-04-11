@@ -58,7 +58,7 @@ header{
 	margin: 20px;
 }
 
-/*--START NAV--*/
+
 nav {
 	float: right;
 	padding: 35px 20px 0 0;
@@ -166,7 +166,7 @@ aside h3 {
 	padding-bottom: 2%;
 }
 
-/*--- FOOTER */
+
 
 footer {
 	background: #333;
@@ -222,7 +222,7 @@ h5 a:hover {
 	color: #405580;
 }
 
-/*--START FOOTER SECOND--*/
+
 footer.second {
 	border-top: 1px solid #4D4E50;
 	max-height: 50px;
@@ -230,7 +230,7 @@ footer.second {
 	opacity: .95;
 }
 
-/*--MEDIA QUERIES--*/
+
 @media screen and (max-width: 768px){
 	header{
 		position: fixed;
