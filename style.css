@@ -37,7 +37,7 @@ img{
 
 header{
 	background: grey;
-	height: 86px;
+	height: 90px;
 	position: fixed;
 	z-index: 1000;
 	width: 100%;
@@ -46,7 +46,7 @@ header{
 }
 
 #header-inner {
-	max-width: 1200pc;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
